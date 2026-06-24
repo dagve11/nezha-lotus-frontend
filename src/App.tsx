@@ -102,7 +102,7 @@ export default function App() {
           </Routes>
         </ErrorBoundary>
       </main>
-      <Footer version={setting?.data?.version} />
+      <Footer siteName={siteName} version={setting?.data?.version} />
     </div>
   );
 }
